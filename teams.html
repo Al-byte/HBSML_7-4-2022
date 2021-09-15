@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./resources/assets/images/logo_solid.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./index.js">
+    </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FLJP6JYM7L"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FLJP6JYM7L');
+    </script>
+  <title>HBSML | Teams</title>
+</head>
+<body id="home">
+  <div class="bottomMenu">
+    <div class="row text-right p-2">
+      <div class="col top-icon-bg">
+        <i class="fa fa-arrow-circle-up fa-2x" id="top-icon" title="Back to Top"></i>
+      </div>
+    </div>
+  </div>  
+  <header class="row d-flex justify-content-md-around align-items-baseline no-gutters web" id="nav">
+    <div class="col-md-1 web text-right">
+        <a href="./index.html"><img src="./resources/assets/images/logo.png" alt="Page Logo" class="logo"></a>
+    </div>
+    <div class="col-md-9 text-center web web-nav">
+        <a href="./index.html" class="nav-item">Home</a>
+        <a href="./foundation.html" class="nav-item">Foundation</a>
+        <a href="./teams.html" class="nav-item">Team HQ</a>
+        <a href="./podcast.html" class="nav-item">Podcast</a>
+        <a href="./training.html" class="nav-item">Training</a>
+        <a href="./shop.html" class="nav-item">Shop</a>
+        <a href="./about.html" class="nav-item">About</a>
+        <a href="./gallery.html" class="nav-item hide">Gallery</a>
+        <a href="./sponsors.html" class="nav-item">Sponsors</a>
+        <a href="./contact.html" class="nav-item">Contact</a>
+    </div>
+    <div class="col-md-1"></div>
+
+  </header>
+
+  <header class="row d-flex align-items-center mobile no-gutters" id="nav">
+      <a href="./index.html"><img src="./resources/assets/images/logo.png" alt="Page Logo" class="logo"></a>
+      <svg class="nav-toggler" onclick="openNav()" width="24px" height="24px" fill="#111" viewBox="0 0 24 24"><path d="M21 13H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1s-.4 1-1 1zm0-8H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1s-.4 1-1 1zm0 16H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1s-.4 1-1 1z"></path></svg>   
+    <div id="mySidenav" class="sidenav mobile">
+        <a href="javascript:void(0)" onclick="closeNav()" class="text-right mt-2 mr-2"><img src="./resources/assets/images/close_grey_36x36.png" alt=""></a>
+        <a href="./index.html" class="nav-item px-4">
+            <div class="row">
+                <div class="col">
+                    <img src="./resources/assets/images/logo.png" alt="Nav Logo" class="nav-logo">
+                </div>
+            </div>
+        </a>
+        
+        <a href="./foundation.html" class="nav-item px-4">Foundation</a>
+        <a href="./teams.html" class="nav-item px-4">Team HQ</a>
+        <a href="./podcast.html" class="nav-item px-4">Podcast</a>
+        <a href="./training.html" class="nav-item px-4">Training</a>
+        <a href="./shop.html" class="nav-item px-4">Shop</a>
+        <a href="./about.html" class="nav-item px-4">About</a>
+        <a href="./gallery.html" class="nav-item px-4 hide">Gallery</a>
+        <a href="./sponsors.html" class="nav-item px-4">Sponsors</a>
+        <a href="./contact.html" class="nav-item px-4">Contact</a>
+    </div>
+  </header>
+<main id="main">
+  <div class="page-content">
+    <section class="container">
+        <div class="row d-flex mb-5">
+            <div class="col-md-4">
+                <h2 class="page-title mt-5">Team HQ</h2>
+            </div>
+            <div class="col-6 col-md-3 mx-auto hide">
+                <div class="embed-responsive embed-responsive-1by1">
+                    <img src="./resources/assets/images/logo_solid.png" alt="" class="embed-responsive-item">
+                </div>
+            </div>
+            <div class="col-md-4 hide">
+
+            </div>
+        </div>
+
+        <section class="row d-flex justify-content-center">
+            <div class="col-12">
+              <div id="teamCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" >
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-1">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-2">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-3">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-4">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-5">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-6">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-7">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-8">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-9">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-10">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-11">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-12">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-13">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-14">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-15">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-16">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-17">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-18">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-19">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-20">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-21">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-22">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-23">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-24">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-25">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-26">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-27">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-28">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-29">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-30">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9 team-slides" id="team-slide-31">
+                      <div class="carousel-caption d-none d-md-block hide">
+                            <h5>TEAM HQ</h5>
+                            <p>Basketball</p>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#teamCarousel" role="button" data-slide="prev">
+                  <i class="fa fa-chevron-left fa-2x" style="background-color: orange; padding: 5px; position: absolute; left: 0;"></i>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#teamCarousel" role="button" data-slide="next">
+                  <i class="fa fa-chevron-right fa-2x" style="background-color: orange; padding: 5px; position: absolute; right: 0;"></i>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>  
+            </div>
+          </section>
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <p class="page-text">Welcome to the official page of <strong>Team HQ!</strong> As a program in its first year, we’re pleased to announce that we have a team for just about any grade on the boys side. On the girls side, we only have 2 teams, but we’re looking to expand to 4 next summer. Are you looking for a basketball home? You have found the place. All of our programs (middle school and under) go year round, at an affordable price. Sign up now, or reach out below to inquire.                </p>
+            </div>
+            <div class="col-md-6 text-center">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeOGhfGM4Q3p9XnsROr8hsmS0o87eCOOIUdarm_hNKsANUtA/viewform" target="_blank" class="btn page-btn px-5">Sign Up!</a>
+                <p class="text-center page-text">Follow Team HQ Basketball</p>
+                <a href="https://twitter.com/THbsml" title="Team HQ Twitter" style="margin-right: 10px;"><i class="mx-auto fa fa-twitter fa-3x social-alt"></i></a>
+                <a href="https://www.instagram.com/teamhqbasketball/" title="Team HQ Instagram" style="margin-left: 10px;"><i class="mx-auto fa fa-instagram fa-3x social-alt"></i></a> <br>
+               <!-- <div class="row align-items-center border-top py-4 mt-3 hide">
+                    <div class="col-md col-lg">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <div class="embed-responsive-item teams" id="team1"></div>
+                        </div>
+                    </div> 
+                    <div class="col-md-7 col-lg-8">
+                        <h4 class="section-title team-name">Team HQ 2024 (<i>9th Grade Boys</i>) </h4>
+                    </div>
+                    <div class="col-md col-lg">
+                        <a href="https://forms.gle/BrMakz1cG2DMnpvk6" target="_blank" class="btn page-btn px-5">Join</a>
+                    </div>
+                </div>
+                <div class="row align-items-center border-top py-4 hide">
+                    <div class="col-md col-lg">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <div class="embed-responsive-item teams" id="team2"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-lg-8">
+                        <h4 class="section-title team-name">Team HQ Black 2025 (<i>8th Grade Boys</i>) </h4>
+                    </div>
+                    <div class="col-md col-lg">
+                        <a href="https://forms.gle/pFvb8BZ2iS3VFoEU8" target="_blank" class="btn page-btn px-5">Join</a>
+                    </div>
+                </div>
+                <div class="row align-items-center border-top py-4 hide">
+                    <div class="col-md col-lg">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <div class="embed-responsive-item teams" id="team3"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-lg-8">
+                        <h4 class="section-title team-name">Team HQ Grey 2025 (<i>8th Grade Boys</i>) </h4>
+                    </div>
+                    <div class="col-md col-lg">
+                        <a href="https://forms.gle/5KXzDvmNp2b1NMmr6" target="_blank" class="btn page-btn px-5">Join</a>
+                    </div>
+                </div>
+                <div class="row align-items-center border-top py-4 hide">
+                    <div class="col-md col-lg">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <div class="embed-responsive-item teams" id="team4"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-lg-8">
+                        <h4 class="section-title team-name">Team HQ Black 2026 (<i>7th Grade Boys</i>) </h4>
+                    </div>
+                    <div class="col-md col-lg">
+                        <a href="https://forms.gle/7RrGacPCYrC26j3B8" target="_blank" class="btn page-btn px-5">Join</a>
+                    </div>
+                </div>
+                <div class="row align-items-center border-top py-4 hide">
+                    <div class="col-md col-lg">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <div class="embed-responsive-item teams" id="team5"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-lg-8">
+                        <h4 class="section-title team-name">Team HQ Grey 2026 (<i>7th Grade Boys</i>) </h4>
+                    </div>
+                    <div class="col-md col-lg">
+                        <a href="https://forms.gle/7PD4vsZpKkK5SXbRA" target="_blank" class="btn page-btn px-5">Join</a>
+                    </div>
+                </div>
+                <div class="row align-items-center border-top py-4 hide">
+                  <div class="col-md col-lg">
+                      <div class="embed-responsive embed-responsive-16by9">
+                          <div class="embed-responsive-item teams" id="team6"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                      <h4 class="section-title team-name">Team HQ Ladies 2026 (<i>7th Grade Girls</i>) </h4>
+                  </div>
+                  <div class="col-md col-lg">
+                      <a href="https://forms.gle/FtNHhZvJ9Safy6w58" target="_blank" class="btn page-btn px-5">Join</a>
+                  </div>
+              </div>
+              <div class="row align-items-center border-top py-4 hide">
+                  <div class="col-md col-lg">
+                      <div class="embed-responsive embed-responsive-16by9">
+                          <div class="embed-responsive-item teams" id="team7"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                      <h4 class="section-title team-name">Team HQ Black 2027 (<i>6th Grade Boys</i>) </h4>
+                  </div>
+                  <div class="col-md col-lg">
+                      <a href="https://forms.gle/JG5ksYVNVfShftGj7" target="_blank" class="btn page-btn px-5">Join</a>
+                  </div>
+              </div>
+              <div class="row align-items-center border-top py-4 hide">
+                  <div class="col-md col-lg">
+                      <div class="embed-responsive embed-responsive-16by9">
+                          <div class="embed-responsive-item teams" id="team8"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                      <h4 class="section-title team-name">Team HQ Grey 2027 (<i>6th Grade Boys</i>) </h4>
+                  </div>
+                  <div class="col-md col-lg">
+                      <a href="https://forms.gle/6H77CR7Azb5eJZSj8" target="_blank" class="btn page-btn px-5">Join</a>
+                  </div>
+              </div>
+              <div class="row align-items-center border-top py-4 hide">
+                  <div class="col-md col-lg">
+                      <div class="embed-responsive embed-responsive-16by9">
+                          <div class="embed-responsive-item teams" id="team9"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                      <h4 class="section-title team-name">Team HQ Ladies 2027 (<i>6th Grade Girls</i>) </h4>
+                  </div>
+                  <div class="col-md col-lg">
+                      <a href="https://forms.gle/JhKmT93MK4bAMCMe8" target="_blank" class="btn page-btn px-5">Join</a>
+                  </div>
+              </div>
+              <div class="row align-items-center border-top py-4 hide">
+                  <div class="col-md col-lg">
+                      <div class="embed-responsive embed-responsive-16by9">
+                          <div class="embed-responsive-item teams" id="team10"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                      <h4 class="section-title team-name">Team HQ Black 2028 (<i>5th Grade Boys</i>) </h4>
+                  </div>
+                  <div class="col-md col-lg">
+                      <a href="https://forms.gle/gxeu9PEq7BY9QuYNA" target="_blank" class="btn page-btn px-5">Join</a>
+                  </div>
+              </div>
+              <div class="row align-items-center border-top py-4 hide">
+                <div class="col-md col-lg">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <div class="embed-responsive-item teams" id="team11"></div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-lg-8">
+                    <h4 class="section-title team-name">Team HQ Grey 2028 (<i>5th Grade Boys</i>) </h4>
+                </div>
+                <div class="col-md col-lg">
+                    <a href="https://forms.gle/fPQEHvrwJWezCJ368" target="_blank" class="btn page-btn px-5">Join</a>
+                </div>
+            </div>
+            <div class="row align-items-center border-top py-4 hide">
+              <div class="col-md col-lg">
+                  <div class="embed-responsive embed-responsive-16by9">
+                      <div class="embed-responsive-item teams" id="team12"></div>
+                  </div>
+              </div>
+              <div class="col-md-7 col-lg-8">
+                  <h4 class="section-title team-name">Team HQ Ladies 2028 (<i>5th Grade Girls</i>) </h4>
+              </div>
+              <div class="col-md col-lg">
+                  <a href="https://forms.gle/f75nJt165FdKsCYs5" target="_blank" class="btn page-btn px-5">Join</a>
+              </div>
+          </div>
+          <div class="row align-items-center border-top py-4 hide">
+            <div class="col-md col-lg">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <div class="embed-responsive-item teams" id="team13"></div>
+                </div>
+            </div>
+            <div class="col-md-7 col-lg-8">
+                <h4 class="section-title team-name">Team HQ 2029 (<i>4th Grade Boys</i>) </h4>
+            </div>
+            <div class="col-md col-lg">
+                <a href="https://forms.gle/FTsGmoF3NXKbj8FH8" target="_blank" class="btn page-btn px-5">Join</a>
+            </div>
+          </div>
+          <div class="row align-items-center border-top py-4 hide">
+            <div class="col-md col-lg">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <div class="embed-responsive-item teams" id="team14"></div>
+                </div>
+            </div>
+            <div class="col-md-7 col-lg-8">
+                <h4 class="section-title team-name">Team HQ 2030 (<i>3rd Grade Boys</i>) </h4>
+            </div>
+            <div class="col-md col-lg">
+                <a href="https://forms.gle/2tUMC5HWbPCXJFSLA" target="_blank" class="btn page-btn px-5">Join</a>
+            </div>
+          </div> -->
+            </div>
+        </div>
+    </section> 
+    <section class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="section-title">Team HQ Family</h2>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Coach</th>
+                      <th scope="col">Team</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Coach Casey</td>
+                      <td>3rd</td>
+                    </tr>
+                    <tr>
+                      <td>Coach E</td>
+                      <td>7th Girls</td>
+                    </tr>
+                    <tr>
+                      <td>Coach Gibbs</td>
+                      <td>7th, 8th, 9th</td>
+                    </tr>
+                    <tr>
+                      <td>Coach Lloyd</td>
+                      <td>5th & 6th</td>
+                    </tr>
+                    <tr>
+                      <td>Coach Orlando</td>
+                      <td>7th</td>
+                    </tr>
+                    <tr>
+                      <td>Coach Rebecca</td>
+                      <td>5th</td>
+                    </tr>
+                    <tr>
+                      <td>Coach Twon</td>
+                      <td>4th & 6th</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+        </div>
+    </section>
+  </div>
+  <footer class="page-footer row text-center py-4">
+    <div class="col-12">
+      <div class="container">
+        <h5>HBSML HEADQUARTERS</h5>
+        <a href="mailto:howbasketballsavedmylife@gmail.com">howbasketballsavedmylife@gmail.com</a> <br>
+        <a href="tel:4053553170">405-355-3170</a> <br>
+        <a href="https://twitter.com/hbsml1" title="HBSML Twitter" class="mx-2 my-3 fa fa-twitter"></a>
+        <a href="https://www.facebook.com/HBSML" title="HBSML Facebook" class="mx-2 my-3 fa fa-facebook"></a>
+        <a href="https://www.youtube.com/channel/UCavoYzuNg-wz3Ve1NXhSyRA" title="HBSML YouTube" class="mx-2 my-3 fa fa-youtube"></a>
+        <a href="https://www.instagram.com/hbsml_headquarters/" title="HBSML Instagram" class="mx-2 my-3 fa fa-instagram"></a> <br>
+        <caption><i class="fa fa-icon fa-copyright"></i> Copyright <a href="./index.html" class="bottom-link">HBSML LLC.</a> 2021</caption> |
+        <a href="./terms.html">Terms and Conditions</a> |
+        <a href="./privacy.html">Privacy Policy</a>
+        
+        <br><br><caption>Site developed by <a href="https://al-byte.github.io/Portfolio/" target="_blank">Alex Washington</a> <br></caption>
+      
+      </div>
+    </div>
+</footer>
+    
+  </main>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+      document.getElementById("main").style.marginRight = "100%";
+      document.body.style.backgroundColor = "lightgray";
+      document.getElementById("nav").style.backgroundColor = "lightgray";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginRight= "0";
+      document.body.style.backgroundColor = "white";
+      document.getElementById("nav").style.backgroundColor = "white";
+    }
+    
+  </script>
+</body>
+</html>
