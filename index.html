@@ -27,7 +27,58 @@
   <title>HBSML | Welcome!</title>
 </head>
 <body id="home">
-
+  <div id="brunchModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header d-flex justify-content-center text-center">
+              <div class="row d-flex align-items-center">
+                <div class="col">
+                  <img src="./resources/assets/images/logo.png" class="w-100" alt="">
+                </div>
+                <div class="col-6 col-md-8">
+                  <h5 class="modal-title p-1 bold">SIGN UP FOR TRYOUTS TODAY!!!</h5>
+                </div>
+                <div class="col">
+                  <img src="./resources/assets/images/logo.png" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="modal-body">
+              <div class="row d-flex justify-content-center">
+                <div class="col-6 text-center">
+                  <a href="tryout google doc">
+                    <h4 class="py-3 bold" style="color: black;">Join Team HQ</h4>
+                    <img src="./resources/assets/images/tryout_orange.png" class="w-100 shadow zoom" alt="" title="Tryout Sign-Up">
+                    <button type="submit" class="btn my-4 page-btn">SIGN UP!</button> 
+                  </a>
+                </div>
+                <div class="row hide">
+                  <div class="col-12">
+                    <div class="row mt-3 d-flex justify-content-center modal-contact-container">
+                      <div class="col-2 mx-1">
+                        <a class="icon" href="tel:+1-321-800-6846" class="mobile-phone"><img src="./resources/css/icons/phone-outline.png" title="Call"></a>
+                      </div>
+                      <div class="col-2 mx-1">
+                        <a class="icon" href="https://www.google.com/maps/place/Seana's+Caribbean+%7C+Soul+Food/@28.5526552,-81.505865,688m/data=!3m1!1e3!4m12!1m6!3m5!1s0x88e77954c3c9589b:0xfef20c34d3b2c877!2sSeana's+Caribbean+%7C+Soul+Food!8m2!3d28.5526505!4d-81.5036763!3m4!1s0x88e77954c3c9589b:0xfef20c34d3b2c877!8m2!3d28.5526505!4d-81.5036763"><img src="./resources/css/icons/location-1387-448334.png" title="Directions"></a>
+                      </div>
+                      <div class="col-2 mx-1">
+                        <a class="icon" href="https://www.ubereats.com/en-US/orlando/food-delivery/seanas/o6S7Q_qWSQaI5Ro2ufozCQ"><img src="./resources/css/icons/uber.png" title="Uber Eats"></a>
+                      </div>
+                      <div class="col-2 mx-1">
+                        <a class="icon" href="https://www.doordash.com/store/seana-s-orlando-1009649/en-US"><img src="./resources/css/icons/doordash.png" title="Door Dash" style="border-radius: 100%"></a>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="button" class="close mt-3" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+              </div>  
+            </div>
+        </div>
+    </div>
+  </div>
   <div class="bottomMenu">
     <div class="row text-right p-2">
       <div class="col top-icon-bg">
@@ -86,28 +137,35 @@
         <div id="indexCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
           <div class="carousel-inner">
             <div class="carousel-item active" >
-              <a href="./organization.html"><div class="embed-responsive embed-responsive-16by9 index-slides" id="slide-1">
+              <a href="./teams.html#flyer"><div class="embed-responsive embed-responsive-16by9 index-slides" id="slide-1">
+                <div class="middle hide">
+                  <h2 class="slide-title">HBSML Tryouts</h2>
+                </div>
+              </div></a>
+            </div>
+            <div class="carousel-item" >
+              <a href="./organization.html"><div class="embed-responsive embed-responsive-16by9 index-slides" id="slide-2">
                 <div class="middle">
                   <h2 class="slide-title">HBSML HQ</h2>
                 </div>
               </div></a>
             </div>
             <div class="carousel-item">
-              <a href="./teams.html"><div class="embed-responsive embed-responsive-16by9 index-slides" id="slide-2">
+              <a href="./teams.html"><div class="embed-responsive embed-responsive-16by9 index-slides" id="slide-3">
                 <div class="middle">
                   <h2 class="slide-title">HBSML Teams</h2>
                 </div>
               </div></a>
             </div>
             <div class="carousel-item">
-              <a href="./training.html"><div class="embed-responsive embed-responsive-16by9 index-slides" id="slide-3">
+              <a href="./training.html"><div class="embed-responsive embed-responsive-16by9 index-slides" id="slide-4">
                 <div class="middle">
                   <h2 class="slide-title">HBSML Training</h2>
                 </div>
               </div></a>
             </div>
             <div class="carousel-item">
-              <a href="./podcast.html"><div class="embed-responsive embed-responsive-16by9 index-slides" id="slide-4">
+              <a href="./podcast.html"><div class="embed-responsive embed-responsive-16by9 index-slides" id="slide-5">
                 <div class="middle">
                   <h2 class="slide-title">HBSML Podcast</h2>
                 </div>
@@ -276,6 +334,11 @@
     }
     
   </script>
-  
+      <script>
+        $('.navbar-nav>li>a').on('click', function(){
+          $('.navbar-collapse').collapse('hide');
+      });
+      $("#brunchModal").modal('show');
+      </script>
 </body>
 </html>

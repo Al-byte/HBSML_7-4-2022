@@ -57,6 +57,18 @@ header {
   padding-top: 5px;
 }
 
+.modal-open[style] {
+  padding-right: 0px !important;
+}
+
+.modal-title {
+  color: black;
+}
+
+/*.modal-title:hover {
+  cursor: pointer !important;
+}*/
+
 .nav-up {
   top: -60px;
 }
@@ -159,18 +171,22 @@ section {
 }
 
 #slide-1 {
-  background-image: url('../assets/images/foundation.PNG');
+  background-image: url('../assets/images/tryout_slide_2.jpg');
 }
 
 #slide-2 {
-  background-image: url('../assets/images/teams.jpg');
+  background-image: url('../assets/images/foundation.PNG');
 }
 
 #slide-3 {
-  background-image: url('../assets/images/training.jpg');
+  background-image: url('../assets/images/teams.jpg');
 }
 
 #slide-4 {
+  background-image: url('../assets/images/training.jpg');
+}
+
+#slide-5 {
   background-image: url('../assets/images/podcast.jpg');
 }
 
@@ -454,6 +470,7 @@ overflow-x: hidden;
   background-color: rgb(224, 105, 16);
   color: white;
   margin: 20px 0;
+  font-weight: bold;
   
 }
 
@@ -537,8 +554,54 @@ overflow-x: hidden;
 @media screen and (max-height: 450px) {
 .sidenav {padding-top: 15px;}
 .sidenav a {font-size: 18px;}
+}
+/*Modal sizes start*/
+@media (max-width: 466.98px) { 
+
+  .modal-dialog {
+    margin-top: 20px;
+  }
+
+  .modal-contact-container {
+    margin-left: -40px;
+  }
 
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 447px) and (max-width: 767.98px) { 
+  .modal-contact-container {
+    margin-left: -40px;
+  }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .modal-dialog {
+    margin-top: 50px;
+  }
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+  .modal-dialog {
+    margin-top: 100px;
+  }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+  .modal-dialog {
+    margin-top: 40px;
+  }
+
+ }
+
+ /*Modal size ends*/
 
 
 @media (max-width: 991.98px) {
