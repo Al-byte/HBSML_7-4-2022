@@ -192,6 +192,7 @@ section {
 
 #team-slide-1 {
   background-image: url('../assets/images/teams_slide_1.jpeg');
+  background-position-y: -90px;
 }
 
 #team-slide-2 {
@@ -200,10 +201,12 @@ section {
 
 #team-slide-3 {
   background-image: url('../assets/images/teams_slide_3.jpeg');
+  background-position-y: -30px;
 }
 
 #team-slide-4 {
   background-image: url('../assets/images/teams_slide_4.jpeg');
+  background-position-y: -70px;
 }
 
 #team-slide-5 {
@@ -216,10 +219,12 @@ section {
 
 #team-slide-7 {
   background-image: url('../assets/images/teams_slide_7.jpeg');
+  background-position-y: -30px;
 }
 
 #team-slide-8 {
   background-image: url('../assets/images/teams_slide_8.jpg');
+  background-position-y: -160px;
 }
 
 #team-slide-9 {
@@ -228,6 +233,7 @@ section {
 
 #team-slide-10 {
   background-image: url('../assets/images/teams_slide_10.jpeg');
+  background-position-y: -170px;
 }
 
 #team-slide-11 {
@@ -240,18 +246,21 @@ section {
 
 #team-slide-13 {
   background-image: url('../assets/images/teams_slide_13.jpeg');
+  
 }
 
 #team-slide-14 {
-  background-image: url('../assets/images/teams_slide_14.jpg');
+  background-image: url('../assets/images/teams_slide_14.jpeg');
 }
 
 #team-slide-15 {
   background-image: url('../assets/images/teams_slide_15.jpeg');
+  background-position-y: -20px;
 }
 
 #team-slide-16 {
   background-image: url('../assets/images/teams_slide_16.jpeg');
+  background-position-y: -20px;
 }
 
 #team-slide-17 {
@@ -275,35 +284,42 @@ section {
 }
 
 #team-slide-22 {
-  background-image: url('../assets/images/teams_slide_22.jpeg');
+  background-image: url('../assets/images/teams_slide_22.jpg');
+  background-position-y: -70px;
 }
 
 #team-slide-23 {
   background-image: url('../assets/images/teams_slide_23.jpg');
+  background-position-y: -30px;
 }
 
 #team-slide-24 {
   background-image: url('../assets/images/teams_slide_24.JPG');
+  background-position-y: -10px;
 }
 
 #team-slide-25 {
   background-image: url('../assets/images/teams_slide_25.JPG');
+  background-position-y: -80px;
 }
 
 #team-slide-26 {
   background-image: url('../assets/images/teams_slide_26.JPG');
+  background-position-y: -150px;
 }
 
 #team-slide-27 {
-  background-image: url('../assets/images/teams_slide_27.JPG');
+  background-image: url('../assets/images/teams_slide_27.jpeg');
+  
 }
 
 #team-slide-28 {
-  background-image: url('../assets/images/teams_slide_28.jpg');
+  background-image: url('../assets/images/teams_slide_28.jpeg');
 }
 
 #team-slide-29 {
-  background-image: url('../assets/images/teams_slide_29.jpg');
+  background-image: url('../assets/images/teams_slide_29.jpeg');
+  background-position-y: -20px;
 }
 
 #team-slide-30 {
@@ -311,7 +327,7 @@ section {
 }
 
 #team-slide-31 {
-  background-image: url('../assets/images/teams_slide_31.jpg');
+  background-image: url('../assets/images/teams_slide_31.jpeg');
 }
 
 #team-slide-32 {
@@ -320,10 +336,12 @@ section {
 
 #team-slide-33 {
   background-image: url('../assets/images/teams_slide_33.jpeg');
+  background-position-y: -20px;
 }
 
 #team-slide-34 {
   background-image: url('../assets/images/teams_slide_34.jpeg');
+  background-position-y: -40px;
 }
 
 #team-slide-35 {
