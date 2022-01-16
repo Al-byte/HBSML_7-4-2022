@@ -59,6 +59,7 @@ header {
 
 .modal-open[style] {
   padding-right: 0px !important;
+  overflow: auto;
 }
 
 .modal-title {

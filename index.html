@@ -27,7 +27,7 @@
   <title>HBSML | Welcome!</title>
 </head>
 <body id="home">
-  <div id="brunchModal" class="modal fade">
+  <div id="popUpModal" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header d-flex justify-content-center text-center">
@@ -36,7 +36,7 @@
                   <img src="./resources/assets/images/logo.png" class="w-100" alt="">
                 </div>
                 <div class="col-6 col-md-8">
-                  <h5 class="modal-title p-1 bold">SIGN UP FOR TRYOUTS TODAY!!!</h5>
+                  <h3 class="modal-title p-1 bold">Join Team HQ</h3>
                 </div>
                 <div class="col">
                   <img src="./resources/assets/images/logo.png" class="w-100" alt="">
@@ -45,12 +45,15 @@
             </div>
             <div class="modal-body">
               <div class="row d-flex justify-content-center">
-                <div class="col-6 text-center">
-                  <a href="tryout google doc">
-                    <h4 class="py-3 bold" style="color: black;">Join Team HQ</h4>
-                    <img src="./resources/assets/images/tryout_orange.png" class="w-100 shadow zoom" alt="" title="Tryout Sign-Up">
-                    <button type="submit" class="btn my-4 page-btn">SIGN UP!</button> 
-                  </a>
+                <div class="col-10 col-md-8  text-center">
+                    <h5 class="py-3 bold" style="color: black;">SIGN UP FOR TRYOUTS TODAY!!!</h5>
+                    <img src="./resources/assets/images/tryout_orange.png" class="w-100 shadow mb-4" alt="" title="Tryout Sign-Up">
+                    <a href="https://docs.google.com/forms/d/1Wb3r-WDACqvJsmQBqx7VSi9nKPEUzblruUlkXa-ixOA/viewform?edit_requested=true" target="_blank">
+                      <button type="submit" class="btn my-4 px-5 page-btn">Boys</button> 
+                    </a>
+                    <a href="https://docs.google.com/forms/d/1-HPRQ9Urmkr-iJny17tcMv7ng19uVcEO-RscYQEKZkg/viewform?edit_requested=true" target="_blank">
+                      <button type="submit" class="btn my-4 px-5 page-btn">Girls</button>
+                    </a>
                 </div>
                 <div class="row hide">
                   <div class="col-12">
@@ -338,7 +341,7 @@
         $('.navbar-nav>li>a').on('click', function(){
           $('.navbar-collapse').collapse('hide');
       });
-      $("#brunchModal").modal('show');
+      $("#popUpModal").modal('show');
       </script>
 </body>
 </html>
