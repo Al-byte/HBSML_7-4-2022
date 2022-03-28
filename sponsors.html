@@ -44,7 +44,7 @@
         <a href="./teams.html" class="nav-item">Team HQ</a>
         <a href="./podcast.html" class="nav-item">Podcast</a>
         <a href="./training.html" class="nav-item">Training</a>
-        <a href="./academy.html" class="nav-item hide">HBSML Academy</a>
+        <a href="javascript:void(window.open('https://form.jotform.com/220859236397063','blank','scrollbars=yes,toolbar=no,width=700,height=500'))" class="nav-item">HBSML Academy</a>
         <a href="./teamhqgear.html" class="nav-item">Shop</a>
         <a href="./about.html" class="nav-item">About</a>
         <a href="./gallery.html" class="nav-item hide">Gallery</a>
@@ -72,7 +72,7 @@
         <a href="./teams.html" class="nav-item px-4">Team HQ</a>
         <a href="./podcast.html" class="nav-item px-4">Podcast</a>
         <a href="./training.html" class="nav-item px-4">Training</a>
-        <a href="./academy.html" class="nav-item px-4 hide">HBSML Academy</a>
+        <a href="javascript:void(window.open('https://form.jotform.com/220859236397063','blank','scrollbars=yes,toolbar=no,width=700,height=500'))" class="nav-item px-4">HBSML Academy</a>
         <a href="./teamhqgear.html" class="nav-item px-4">Shop</a>
         <a href="./about.html" class="nav-item px-4">About</a>
         <a href="./gallery.html" class="nav-item px-4 hide">Gallery</a>
@@ -206,6 +206,31 @@
                     </a>
                 </div>
                 <h4 class="section-title text-center">Valliance Bank</h4>
+            </div>
+            
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-6">
+                <h2 class="section-title my-5">Interested in Sponsorship?</h2>
+                <form action="https://formspree.io/f/xayvdyoo" method="POST" class="text-left">
+                    <p>Your Name/Business Name (required)
+                      <input type="text" name="Name/Business Name"  class="form-control" required></p>
+                    <p>Your E-mail (required)
+                      <input type="text" name="E-mail"  class="form-control" required></p>
+                    <p>Phone
+                      <input type="text" name="Phone Number" class="form-control" 
+                      oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                      minlength="10" maxlength="10" required></p>
+                    <div class="form-group">
+                      <p>Your Message
+                      <textarea class="form-control" rows="10" name="Comments" id="comments"></textarea></p>
+                      <div class="row d-flex justify-content-center">
+                        <div class="col-12 text-center">
+                          <input class="btn page-btn" type="submit" value="Send Message" style="font-weight: bold; font-size: 20px;">
+                        </div>
+                      </div>
+                    </div>
+                  </form>
             </div>
         </div>
 

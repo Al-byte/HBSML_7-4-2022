@@ -172,22 +172,26 @@ section {
 }
 
 #slide-1 {
-  background-image: url('../assets/images/tryout_slide_2.jpg');
-}
-
-#slide-2 {
   background-image: url('../assets/images/foundation.PNG');
 }
 
-#slide-3 {
+#slide-2 {
   background-image: url('../assets/images/teamhq.jpeg');
 }
 
-#slide-4 {
+#slide-3 {
   background-image: url('../assets/images/training.png');
 }
 
+#slide-4 {
+  background-image: url('../assets/images/podcast.jpg');
+}
+
 #slide-5 {
+  background-image: url('../assets/images/shop.png');
+}
+
+#slide-6 {
   background-image: url('../assets/images/podcast.jpg');
 }
 
