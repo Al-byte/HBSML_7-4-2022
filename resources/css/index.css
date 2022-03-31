@@ -80,7 +80,7 @@ header {
   bottom: 50%;
   width: 100%;
   z-index: 1;
-}
+} 
 
 #top-icon, .social-alt, .contact a {
   cursor: pointer;
@@ -206,12 +206,12 @@ section {
 
 #team-slide-3 {
   background-image: url('../assets/images/teams_slide_3.jpeg');
-  background-position-y: -30px;
+  background-position-y: -20px;
 }
 
 #team-slide-4 {
   background-image: url('../assets/images/teams_slide_4.jpeg');
-  background-position-y: -70px;
+  background-position-y: -30px;
 }
 
 #team-slide-5 {
@@ -224,7 +224,7 @@ section {
 
 #team-slide-7 {
   background-image: url('../assets/images/teams_slide_7.jpeg');
-  background-position-y: -30px;
+  background-position-y: -180px;
 }
 
 #team-slide-8 {
